@@ -1,6 +1,6 @@
 [package]
 name = "axum_thiserror"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "A Rust procedural macro for custom error handling in web applications, enabling the association of specific HTTP status codes with error types."
 authors = ["VIAL Sébastien (Shyrogan)"]
