@@ -1,8 +1,7 @@
-use proc_macro2::{Ident, TokenStream};
+use proc_macro2::TokenStream;
 use quote::{quote, quote_spanned};
 use syn::{
-    parse_macro_input, punctuated::Punctuated, spanned::Spanned, token::Comma, Data, DeriveInput,
-    Expr, LitInt, Meta, Path, Variant,
+    parse_macro_input, punctuated::Punctuated, spanned::Spanned, token::Comma, Data, DeriveInput, LitInt, Meta, Path, Variant,
 };
 
 ///! # axum_thiserror
