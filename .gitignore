@@ -1,1 +1,5 @@
 /target
+/result
+/.opencode
+/.claude
+/.pre-commit-config.yaml
